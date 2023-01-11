@@ -1,0 +1,25 @@
+.discover {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  color: #000;
+}
+
+.discover h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46px;
+  color: #342b52;
+  margin-left: 89px;
+  padding-top: 66px;
+  padding-left: 62px;
+  padding-bottom: 42px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-left: 89px;
+  margin-right: 27px;
+}

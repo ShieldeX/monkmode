@@ -1,0 +1,170 @@
+.welcome {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  color: #000;
+  padding-bottom: 163px;
+}
+
+.welcome h1 {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 80px;
+  color: #000;
+  padding-top: 67px;
+  padding-left: 134px;
+  padding-bottom: 50px;
+}
+
+.welcome h1 span {
+  font-weight: 700;
+  color: #fff;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-card {
+  width: 849px;
+  height: 653px;
+  background-color: #92c800;
+  margin-left: 50px;
+  margin-top: 87px;
+}
+
+.left-card h2 {
+  font-weight: 400;
+  font-size: 75px;
+  line-height: 70px;
+  color: #000;
+  padding: 136px 99px 80px 107px;
+  text-align: left;
+}
+
+.left-card button {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  width: 246px;
+  height: 63px;
+  border: none;
+  background: #4d384e;
+  color: #fff;
+  border-radius: 30px;
+  margin-left: 138px;
+  margin-right: 465px;
+  margin-bottom: 170px;
+  padding: 19px 42px 20px 37px;
+}
+
+.right-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top-right-card {
+  position: relative;
+  width: 393px;
+  height: 322px;
+  margin-right: 73.5px;
+  margin-bottom: 96.89px;
+}
+
+.top-right-card::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../../assets/record-player.jpg");
+  opacity: 0.5;
+  border-radius: 50px;
+}
+
+.top-right-card p {
+  position: relative;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+  color: #000;
+  margin: 0;
+  padding: 53px 97px 9px 44px;
+}
+
+.top-right-card h2 {
+  position: relative;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 35px;
+  color: #000;
+  text-align: left;
+  padding: 0 89px 48px 44px;
+}
+
+.top-right-card button {
+  position: relative;
+  font-family: "Helvetica";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 80px;
+  width: 165px;
+  height: 68px;
+  border: none;
+  margin: 0 184px 32px 44px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  background: transparent;
+}
+
+.arrow-icon {
+  padding-left: 10px;
+}
+
+.bottom-right-card {
+  width: 393px;
+  height: 322.11px;
+  background-color: #bb874a;
+  margin-right: 73.5px;
+}
+
+.bottom-right-card p {
+  position: relative;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+  color: #000;
+  margin: 0;
+  padding: 53px 58.33px 9px 36px;
+}
+
+.bottom-right-card h2 {
+  position: relative;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 35px;
+  color: #000;
+  text-align: left;
+  padding: 0 49.45px 48px 36px;
+}
+
+.bottom-right-card button {
+  position: relative;
+  font-family: "Helvetica";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 80px;
+  width: 165px;
+  height: 68px;
+  border: none;
+  margin: 0 154.92px 32.11px 36px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  background: transparent;
+}

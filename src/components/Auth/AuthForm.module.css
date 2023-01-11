@@ -1,0 +1,134 @@
+.auth {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  display: flex;
+  background: #d3d3d3;
+  padding-top: 36px;
+  padding-left: 61px;
+  padding-bottom: 64px;
+  gap: 99px;
+}
+
+.card {
+  width: 606px;
+  height: 754px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #92c800;
+  mix-blend-mode: darken;
+  border-radius: 50px;
+}
+
+.auth h2 span {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 90px;
+  text-align: center;
+  color: #caed6b;
+}
+
+.auth h2 {
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 90px;
+  text-align: center;
+  color: #fff;
+}
+
+.login {
+  width: 529px;
+  height: 754px;
+  display: flex;
+  flex-direction: column;
+}
+
+.login h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46px;
+  color: #000;
+  padding-top: 72px;
+  margin-bottom: 16px;
+}
+
+.subscription {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  width: 529px;
+  height: 70px;
+  border: none;
+  margin-bottom: 38px;
+  background: transparent;
+  padding: 0;
+}
+
+.subscription b {
+  font-weight: 700;
+}
+
+.subscription span {
+  color: #1a9dc7;
+  text-decoration: underline;
+}
+
+.control label {
+  display: block;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000;
+  margin-bottom: 12px;
+}
+
+.control label span {
+  color: #e75656;
+}
+
+.control input {
+  font-family: "Arimo";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  width: 416px;
+  height: 71px;
+  border: none;
+  background: rgba(217, 217, 217, 0.46);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-left: 12px;
+  margin-bottom: 21px;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-btn {
+  font-family: "Baskervville";
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 30px;
+  border: none;
+  width: 213px;
+  height: 60px;
+  color: #85ffb6;
+  background: #172b16;
+  margin-top: 37px;
+  margin-left: 90px;
+}
+
+.password-btn {
+  font-family: "Arimo";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  border: none;
+  color: #565656;
+  background-color: transparent;
+  margin-top: 21px;
+}

@@ -1,0 +1,87 @@
+.card {
+  width: 554px;
+  height: 812px;
+  background: #fff;
+  border: 3px solid #fff;
+  border-radius: 50px;
+  margin-bottom: 58px;
+}
+
+.wrapper {
+  padding-top: 51px;
+  padding-bottom: 63.4px;
+  padding-left: 49px;
+}
+
+.video {
+  position: relative;
+  width: 456.16px;
+  height: 339.18px;
+  margin-bottom: 27.82px;
+}
+
+.play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  color: #342b52;
+}
+
+.author {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #565656;
+  margin-bottom: 21px;
+}
+
+.card ul {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000;
+  padding-left: 30px;
+  margin-bottom: 33px;
+}
+
+.card li {
+  list-style-type: initial;
+}
+
+.amounts {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000;
+  margin-bottom: 9px;
+}
+
+.button {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  width: 191.43px;
+  height: 62.6px;
+  border: none;
+  background: #4d384e;
+  border-radius: 30px;
+  color: #fff;
+  margin-right: 67.57px;
+  padding: 19.67px 43px 18.93px 44px;
+}
+
+.card a span {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-decoration-line: underline;
+  color: #4d384e;
+}
